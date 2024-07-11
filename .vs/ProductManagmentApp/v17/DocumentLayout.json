@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Filters.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Models\\Filters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:08:01.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Category.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:04:32.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Product.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:01:29.079Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
