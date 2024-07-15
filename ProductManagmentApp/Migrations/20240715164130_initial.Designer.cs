@@ -12,7 +12,7 @@ using ProductManagmentApp.Models;
 namespace ProductManagmentApp.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20240715124502_initial")]
+    [Migration("20240715164130_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -102,7 +102,8 @@ namespace ProductManagmentApp.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ExpirationDate")
+                    b.Property<DateTime?>("ExpirationDate")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Name")

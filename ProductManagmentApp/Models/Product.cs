@@ -20,8 +20,8 @@ namespace ProductManagmentApp.Models
         public string CategoryId { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Please Enter product ")]
-        public DateTime ExpirationDate { get; set; }
-        public Category Category { get; set; } = null!;
+        public DateTime? ExpirationDate { get; set; }
+        public Category? Category { get; set; }
 
         public bool IsExpired => ExpirationDate > DateTime.Today;
     }

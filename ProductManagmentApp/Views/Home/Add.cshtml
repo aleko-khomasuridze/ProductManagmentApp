@@ -17,7 +17,7 @@
 	
 	<div class="mb-3">
 		<label asp-for="CategoryId" class="form-label">Category</label>
-		<select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Categories">
+		<select asp-for="CategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name"))">
 			<option value="">Choose Category</option>
 		</select>
 	</div>

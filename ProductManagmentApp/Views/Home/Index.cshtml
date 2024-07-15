@@ -44,7 +44,7 @@
 							<td>@product.Name</td>
 							<td>@product.Category.Name</td>
 							<td>@product.Price</td>
-							<td>@product.ExpirationDate</td>
+							<td class="@expired">@product.ExpirationDate</td>
 							<td>
 								<a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger text-white">Delete</a>
 							</td>
