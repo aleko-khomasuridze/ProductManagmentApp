@@ -1,8 +1,59 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<Product>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+	<div class="col-md-2">
+		<form asp-action="Filter" method="post">
+			<!-- filter by category -->
+			<div class="mb-3">
+				<label class="form-label">Category</label>
+				<select name="filter" class="form-select"
+						asp-items="@(new SelectList(ViewBag.Categories, "Id", "Name", ViewBag.Filters.CategoryId))">
+					<option value="all">All</option>
+				</select>
+			</div>
+
+			<!-- filter by expiration -->
+			<div class="mb-3">
+				<label class="form-label">Expiration</label>
+				<select name="filter" class="form-select"
+						asp-items="@(new SelectList(ViewBag.ExpirationDateFilters, "Key", "Value", ViewBag.Filters.ExpirationDate))">
+					<option value="all">All</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-primary">Filter</button>
+			<a asp-action="Index" asp-route-id="" class="btn btn-primary">Clear</a>
+		</form>
+	</div>
+	<div class="col-md-10">
+		<form asp-action="Index" method="post" asp-route-id="@ViewBag.Filters.FilterString">
+			<table class="table table-bordered table-striped mt-2">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Category</th>
+						<th>Price</th>
+						<th>ExpirationDate</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var product in Model)
+					{
+						string expired = product.IsExpired ? "bg-warning" : "";
+						<tr>
+							<td>@product.Name</td>
+							<td>@product.Category.Name</td>
+							<td>@product.Price</td>
+							<td>@product.ExpirationDate</td>
+							<td>
+								<a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger text-white">Delete</a>
+							</td>
+						</tr>
+					}
+					
+				</tbody>
+			</table>
+			<a asp-action="Add" class="btn btn-primary">Add New Product</a>
+		</form>
+	</div>
 </div>

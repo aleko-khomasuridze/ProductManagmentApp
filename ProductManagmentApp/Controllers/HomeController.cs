@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using ProductManagmentApp.Models;
 using System.Diagnostics;
 
@@ -6,27 +8,114 @@ namespace ProductManagmentApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private ProductContext _productContext;
+        public HomeController(ProductContext productContext)
         {
-            _logger = logger;
+            this._productContext = productContext ?? throw new ArgumentNullException(nameof(productContext));
         }
 
-        public IActionResult Index()
+
+
+        public IActionResult Index(string id)
         {
-            return View();
+            var filters = new Filters(id);
+            ViewBag.Filters = filters;
+
+            ViewBag.Categories = _productContext.Categories.ToList() ?? new List<Category>();
+            ViewBag.ExpirationDateFilters = Filters.ExpirationDateValues;
+
+            IQueryable<Product> productsQuery = _productContext.Products
+                .Include(p => p.Category);
+
+            // Apply filters based on expiration date
+            if (filters.HasExpirationDate)
+            {
+                productsQuery = productsQuery.Where(p => p.ExpirationDate < DateTime.Today);
+            }
+
+            // Apply filters based on category
+            if (filters.HasCategory)
+            {
+                productsQuery = productsQuery.Where(p => p.CategoryId == filters.CategoryId);
+            }
+
+            // Apply filters based on expired status
+            if (filters.HasExpirationDate)
+            {
+                productsQuery = productsQuery.Where(p => p.IsExpired);
+            }
+
+            var products = productsQuery.OrderBy(p => p.Price).ToList();
+
+            return View(products);
         }
 
-        public IActionResult Privacy()
+
+        [HttpGet]
+        public IActionResult Add()
+        { 
+			var categories = _productContext.Categories.ToList() ?? new List<Category>();
+			ViewBag.Categories = new SelectList(categories, "Id", "Name");
+            var products = new Product();            
+			return View(products);
+		}
+
+		[HttpPost]
+		public IActionResult Add(Product product)
+		{
+			if (ModelState.IsValid)
+			{
+				_productContext.Products.Add(product);
+				_productContext.SaveChanges();
+				return RedirectToAction("Index");
+			}
+			else
+			{
+				// Re-populate ViewBag.Categories in case of an invalid model state
+				ViewBag.Categories = new SelectList(_productContext.Categories.ToList(), "Id", "Name");
+				return View(product);
+			}
+		}
+
+
+		[HttpPost]
+        public IActionResult Filter(string[] filter)
         {
-            return View();
+            string id = string.Join("-", filter);
+            return RedirectToAction("Index", new { Id =  id });
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [HttpGet]
+        public async Task<IActionResult> Delete(int? id)
+        {   
+            if(id == null)
+            {
+                return NotFound(); 
+            }
+
+            var product = await _productContext.Products.FirstOrDefaultAsync(p => p.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
         }
+
+        [HttpPost, ActionName("DeleteConfirmed")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var product = await _productContext.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _productContext.Products.Remove(product);
+            await _productContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

@@ -14,11 +14,15 @@ namespace ProductManagmentApp.Models
         public string Description { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Please Enter Product Price")]
-        public double price { get; set; }
+        public double Price { get; set; }
 
-        [Required(ErrorMessage = "Please Enter product Category")]
-        public Category? Category { get; set; }
+        [Required(ErrorMessage = "Please Enter product category")]
+        public string CategoryId { get; set; } = string.Empty;
 
-        public DateOnly ExpirationDate { get; set; }
+        [Required(ErrorMessage = "Please Enter product ")]
+        public DateTime ExpirationDate { get; set; }
+        public Category Category { get; set; } = null!;
+
+        public bool IsExpired => ExpirationDate > DateTime.Today;
     }
 }

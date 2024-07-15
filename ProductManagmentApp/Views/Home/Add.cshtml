@@ -1,0 +1,35 @@
+﻿@model Product
+
+<h2>Create New Model</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Add" method="post">
+	<div class="mb-3">
+		<label asp-for="Name" class="form-label">Name</label>
+		<input asp-for="Name" class="form-control" type="text" placeholder="Enter Product Name"/>
+	</div>	
+	
+	<div class="mb-3">
+		<label asp-for="Description" class="form-label">Description</label>
+		<textarea asp-for="Description" class="form-control" type="text" placeholder="Write Product Description"></textarea>
+	</div>
+	
+	<div class="mb-3">
+		<label asp-for="CategoryId" class="form-label">Category</label>
+		<select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Categories">
+			<option value="">Choose Category</option>
+		</select>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="ExpirationDate" class="form-label">Expiration Date</label>
+		<input asp-for="ExpirationDate" class="form-control" type="date" placeholder="Enter Expiration Date"/>
+	</div>
+	
+	
+	
+	<a asp-action="Index" class="btn btn-primary">Cancel</a>
+	<button type="submit" class="btn btn-primary">Add</button>
+
+</form>

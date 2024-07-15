@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|solutionrelative:productmanagmentapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Migrations\\20240715124502_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductManagmentApp\\Migrations\\20240715124502_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70C47BDB-C280-4771-B48E-B0CA4E381B60}|ProductManagmentApp\\ProductManagmentApp.csproj|c:\\users\\aleko\\source\\repos\\productmanagmentapp\\productmanagmentapp\\models\\filters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,41 +42,93 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Filters.cs",
-              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
-              "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Filters.cs",
-              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
-              "RelativeToolTip": "ProductManagmentApp\\Models\\Filters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "20240715124502_initial.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Migrations\\20240715124502_initial.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Migrations\\20240715124502_initial.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Migrations\\20240715124502_initial.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Migrations\\20240715124502_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T18:08:01.251Z",
+              "WhenOpened": "2024-07-15T12:45:02.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Category.cs",
               "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Category.cs",
               "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Category.cs",
               "RelativeToolTip": "ProductManagmentApp\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T18:04:32.188Z",
+              "WhenOpened": "2024-07-15T12:25:55.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Add.cshtml",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Views\\Home\\Add.cshtml",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Add.cshtml",
+              "RelativeToolTip": "ProductManagmentApp\\Views\\Home\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T12:17:29.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Product.cs",
               "RelativeToolTip": "ProductManagmentApp\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T18:01:29.079Z",
+              "WhenOpened": "2024-07-15T12:10:00.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T12:03:07.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Filters.cs",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Models\\Filters.cs",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Models\\Filters.cs",
+              "RelativeToolTip": "ProductManagmentApp\\Models\\Filters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T12:02:59.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductManagmentApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProductManagmentApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T11:26:42.539Z",
               "EditorCaption": ""
             }
           ]
