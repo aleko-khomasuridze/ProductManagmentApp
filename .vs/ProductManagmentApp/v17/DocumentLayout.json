@@ -50,8 +50,7 @@
               "RelativeToolTip": "ProductManagmentApp\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAswEIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:03:07.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T12:03:07.848Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "ProductManagmentApp\\Views\\Home\\Add.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-15T12:17:29.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T12:17:29.322Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "ProductManagmentApp\\Models\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T12:10:00.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T12:10:00.151Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,8 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProductManagmentApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "ProductManagmentApp\\Views\\Home\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProductManagmentApp\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAC4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-15T11:26:42.539Z",
