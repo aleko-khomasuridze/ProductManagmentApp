@@ -53,7 +53,6 @@ C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\ne
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -136,3 +135,7 @@ C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\ne
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\ProductManagmentApp.pdb
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\ProductManagmentApp.genruntimeconfig.cache
 C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\ref\ProductManagmentApp.dll
+C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\bin\Debug\net8.0\ProductManagmentApp.staticwebassets.endpoints.json
+C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\staticwebassets\msbuild.ProductManagmentApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\aleko\source\repos\ProductManagmentApp\ProductManagmentApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

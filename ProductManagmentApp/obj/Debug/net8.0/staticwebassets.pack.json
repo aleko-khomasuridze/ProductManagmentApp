@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProductManagmentApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ProductManagmentApp.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ProductManagmentApp.3rk5qrubds.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\aleko\\source\\repos\\ProductManagmentApp\\ProductManagmentApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductManagmentApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductManagmentApp.Microsoft.AspNetCore.StaticWebAssets.props",
